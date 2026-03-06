@@ -18,10 +18,11 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker Image
-        run: docker build -t tijabo/expense-tracker:latest ../../
+        run: docker build -t tijabo/expense-tracker:latest .
+
 
       - name: Push Docker Image
-        run: docker push tijabo/expense-tracker:latest 
+        run: docker push tijabo/expense-tracker:latest
 
   deploy:
     needs: build-and-push
