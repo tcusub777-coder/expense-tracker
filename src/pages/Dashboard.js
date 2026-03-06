@@ -35,8 +35,9 @@ export default function Dashboard() {
         <div className="mb-4 md:mb-0">
           <h1 className="text-4xl font-bold text-gray-900 tracking-tight">
             Welcome, <span className="text-blue-600">{user.email}</span>
-          </h1>
-          <p className="text-gray-500 mt-1">Manage your expenses efficiently</p>
+          </h1>          
+<p className="text-gray-500 mt-1">Manage your expenses efficiently</p>
+<h4>Its Working Now 🔥✅😫</h4>
         </div>
         <button
           onClick={handleLogout}
