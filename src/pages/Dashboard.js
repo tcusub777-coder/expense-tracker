@@ -37,7 +37,7 @@ export default function Dashboard() {
             Welcome, <span className="text-blue-600">{user.email}</span>
           </h1>          
 <p className="text-gray-500 mt-1">Manage your expenses efficiently</p>
-<h4>EveryThing is Good Now 🔥✅😫</h4>
+<h4>This webiste is Online and Secure</h4>
         </div>
         <button
           onClick={handleLogout}
