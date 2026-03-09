@@ -32,5 +32,5 @@ jobs:
             docker stop expense-tracker-con || true
             docker rm expense-tracker-con || true
             docker pull ${{ secrets.DOCKER_USERNAME }}/expense-tracker:latest
-            docker run -d -p  80:80 --name expense-tracker-con ${{ secrets.DOCKER_USERNAME }}/expense-tracker:latest
+            docker run -d -p  3000:80 --name expense-tracker-con ${{ secrets.DOCKER_USERNAME }}/expense-tracker:latest
 
